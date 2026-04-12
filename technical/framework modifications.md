@@ -1,0 +1,1 @@
+convolutional CT scan aware transformer module and hybrid network of CNNs and transformers to use spatial and temporal dimensions [[CH1.4.3 Transformer for medical image classification]]

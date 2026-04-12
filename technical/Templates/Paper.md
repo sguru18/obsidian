@@ -1,0 +1,35 @@
+---
+tags: [paper, to-read]
+year: 
+authors: 
+venue: 
+modality:
+task:
+dataset_size:
+relevance: # high/medium/low
+open_source: # true/false
+---
+
+## Problem
+What gap or challenge are they addressing?
+
+## Method
+Architecture, key design decisions, why they made them
+
+## Dataset
+- Size:
+- Modality:
+- Task:
+
+## Results
+Key numbers, what baseline they beat
+
+## Limitations
+What they acknowledge or what you notice
+
+## My Take
+Is this relevant to your project? What would transfer?
+
+## Links
+- Concept notes: [[]]
+- Related papers: [[]]
