@@ -1,13 +1,11 @@
 ---
-tags: [paper, to-read]
-year: 
-authors: 
-venue: 
+tags:
+  - paper
+  - to-read
+year:
 modality:
 task:
 dataset_size:
-relevance: # high/medium/low
-open_source: # true/false
 ---
 
 ## Problem
