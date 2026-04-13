@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "framework modifications.md",
+                "file": "Deep Lesion Tracker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "framework modifications"
+              "title": "Deep Lesion Tracker"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "framework modifications.md",
+                "file": "Deep Lesion Tracker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for framework modifications"
+              "title": "Backlinks for Deep Lesion Tracker"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "framework modifications.md",
+                "file": "Deep Lesion Tracker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from framework modifications"
+              "title": "Outgoing links from Deep Lesion Tracker"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "framework modifications.md",
+                "file": "Deep Lesion Tracker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of framework modifications"
+              "title": "Outline of Deep Lesion Tracker"
             }
           }
         ]
@@ -186,13 +186,15 @@
   },
   "active": "cd0567481d1cd2ce",
   "lastOpenFiles": [
-    "Deep Lesion Tracker.md",
+    "DL for MI Textbook.md",
     "framework modifications.md",
+    "Deep Lesion Tracker.md",
+    "correlation filter and Siamese nets.md",
+    "Templates/Concept.md",
+    "Untitled",
     "Templates/Paper.md",
     "CH1.4.3 Transformer for medical image classification.md",
-    "DL for MI Textbook.md",
     "Untitled 1.md",
-    "Templates/Concept.md",
     "2026-03-26.md",
     "Templates",
     "Untitled.canvas",
