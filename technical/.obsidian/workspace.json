@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Lesion Tracker.md",
+                "file": "Predicting treatment response from longitudinal images using multi-task deep learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep Lesion Tracker"
+              "title": "Predicting treatment response from longitudinal images using multi-task deep learning"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Lesion Tracker.md",
+                "file": "Predicting treatment response from longitudinal images using multi-task deep learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deep Lesion Tracker"
+              "title": "Backlinks for Predicting treatment response from longitudinal images using multi-task deep learning"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Lesion Tracker.md",
+                "file": "Predicting treatment response from longitudinal images using multi-task deep learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Deep Lesion Tracker"
+              "title": "Outgoing links from Predicting treatment response from longitudinal images using multi-task deep learning"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Lesion Tracker.md",
+                "file": "Predicting treatment response from longitudinal images using multi-task deep learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Deep Lesion Tracker"
+              "title": "Outline of Predicting treatment response from longitudinal images using multi-task deep learning"
             }
           }
         ]
@@ -184,16 +184,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd0567481d1cd2ce",
+  "active": "fc13790d079970d9",
   "lastOpenFiles": [
+    "Templates/Paper.md",
+    "Predicting treatment response from longitudinal images using multi-task deep learning.md",
+    "Deep Lesion Tracker.md",
+    "CH1.4.3 Transformer for medical image classification.md",
     "DL for MI Textbook.md",
     "framework modifications.md",
-    "Deep Lesion Tracker.md",
     "correlation filter and Siamese nets.md",
     "Templates/Concept.md",
     "Untitled",
-    "Templates/Paper.md",
-    "CH1.4.3 Transformer for medical image classification.md",
     "Untitled 1.md",
     "2026-03-26.md",
     "Templates",

@@ -1,1 +1,0 @@
-starting at part 1 chapter 4 Transformer for medical image analysis p. 99

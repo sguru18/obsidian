@@ -1,6 +1,7 @@
 convolutional CT scan aware transformer module and hybrid network of CNNs and transformers to use spatial and temporal dimensions. not longitudinal though more for 2d + 3d [[CH1.4.3 Transformer for medical image classification]]
 
-[[Deep Lesion Tracker]] tracks a legion across multiple 3d ct images
+[[Deep Lesion Tracker]] tracks center of a legion across multiple 3d ct images
+- fuses anatomical map embeddings with 3d ct embeddings 
 
 
 relevant data for overall task
