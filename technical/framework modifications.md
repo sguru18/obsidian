@@ -2,6 +2,14 @@ convolutional CT scan aware transformer module and hybrid network of CNNs and tr
 
 [[Deep Lesion Tracker]] tracks center of a legion across multiple 3d ct images
 - fuses anatomical map embeddings with 3d ct embeddings 
+[[Predicting treatment response from longitudinal images using multi-task deep learning]] is fantastic exact same longitudinal setup, not huge dataset
+- uses MRI instead of CT but should be modifiable 
+- might want to use something from deep lesion tracker related to anatomical constraints, ie. their "anatomical signal encoder" and fuse here
+- this already does segmentation though so much of deep lesion tracker of finding center not necessary anymore, just maybe the idea of giving it bounds to use could be useful, or maybe if segmentation doesn't perform well but should be fine probably not necessary
+**fundamental difference** the MRI is not 4d though like our post info is
+need to find approaches using 4d data specifically over 1/1.5min or something and then could modify this?? we do have the single post CT so this is valuable but we can get more from our data
+
+wonder how to use perfusion data / dose map info
 
 
 relevant data for overall task
