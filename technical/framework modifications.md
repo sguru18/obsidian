@@ -10,6 +10,18 @@ convolutional CT scan aware transformer module and hybrid network of CNNs and tr
 need to find approaches using 4d data specifically over 1/1.5min or something and then could modify this?? we do have the single post CT so this is valuable but we can get more from our data
 
 wonder how to use perfusion data / dose map info
+oh we don't have info on where the tumor is for the post treatment perfusion scan so might need DLT here. our contours are only for pretreatment
+
+starting to get an overall idea in my head
+pre/post CT scans can use [[Predicting treatment response from longitudinal images using multi-task deep learning]] type of setup to compare them
+pre-treatment perfusion scan has contours already
+post-treatment can get contours using [[Deep Lesion Tracker]] 
+and then use remodeled ConvLSTM for 2x 90 sec perfusion scan and compare their embeddings or something? 
+- can we give convLSTM dose map info??
+- actually i think dose info is better as context in fusion stage
+and then how in the world to merge all this stuff
+- late fusion
+
 
 
 relevant data for overall task
