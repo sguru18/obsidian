@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "framework modifications.md",
+                "file": "multimodal fusion for radiotherapy outcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "framework modifications"
+              "title": "multimodal fusion for radiotherapy outcome"
             }
           }
         ]
@@ -184,13 +184,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd0567481d1cd2ce",
+  "active": "fc13790d079970d9",
   "lastOpenFiles": [
-    "LSTMs for Tumor Growth using 4D longitudinal data.md",
     "framework modifications.md",
+    "multimodal fusion for radiotherapy outcome.md",
+    "Self-supervised pre-training with contrastive and masked autoencoder methods for dealing with small datasets in deep learning for medical imaging.md",
+    "Templates/Paper.md",
+    "LSTMs for Tumor Growth using 4D longitudinal data.md",
     "Predicting treatment response from longitudinal images using multi-task deep learning.md",
     "Deep Lesion Tracker.md",
-    "Templates/Paper.md",
     "CH1.4.3 Transformer for medical image classification.md",
     "DL for MI Textbook.md",
     "correlation filter and Siamese nets.md",

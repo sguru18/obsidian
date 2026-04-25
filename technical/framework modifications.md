@@ -18,9 +18,13 @@ pre-treatment perfusion scan has contours already
 post-treatment can get contours using [[Deep Lesion Tracker]] 
 and then use remodeled ConvLSTM for 2x 90 sec perfusion scan and compare their embeddings or something? 
 - can we give convLSTM dose map info??
-- actually i think dose info is better as context in fusion stage
+- actually i think dose info is better as context in fusion stage (what's a spatial attention mask?)
 and then how in the world to merge all this stuff
 - late fusion
+
+we are predicting global response assessment category right?
+
+one level lower and [[Self-supervised pre-training with contrastive and masked autoencoder methods for dealing with small datasets in deep learning for medical imaging]] seems to have important info for how to actually initialize and train pieces of this
 
 
 
