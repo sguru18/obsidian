@@ -2,7 +2,7 @@
 tags:
   - paper
   - to-read
-year:
+year: "2025"
 modality:
 task:
 dataset_size:

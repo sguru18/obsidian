@@ -1,8 +1,8 @@
 convolutional CT scan aware transformer module and hybrid network of CNNs and transformers to use spatial and temporal dimensions. not longitudinal though more for 2d + 3d [[CH1.4.3 Transformer for medical image classification]]
 
-[[Deep Lesion Tracker]] tracks center of a legion across multiple 3d ct images
+[[deep lesion tracker]] tracks center of a legion across multiple 3d ct images
 - fuses anatomical map embeddings with 3d ct embeddings 
-[[Predicting treatment response from longitudinal images using multi-task deep learning]] is fantastic exact same longitudinal setup, not huge dataset
+[[longitudinal multi-task deep learning]] is fantastic exact same longitudinal setup, not huge dataset
 - uses MRI instead of CT but should be modifiable 
 - might want to use something from deep lesion tracker related to anatomical constraints, ie. their "anatomical signal encoder" and fuse here
 - this already does segmentation though so much of deep lesion tracker of finding center not necessary anymore, just maybe the idea of giving it bounds to use could be useful, or maybe if segmentation doesn't perform well but should be fine probably not necessary
@@ -13,14 +13,15 @@ wonder how to use perfusion data / dose map info
 oh we don't have info on where the tumor is for the post treatment perfusion scan so might need DLT here. our contours are only for pretreatment
 
 starting to get an overall idea in my head
-pre/post CT scans can use [[Predicting treatment response from longitudinal images using multi-task deep learning]] type of setup to compare them
+pre/post CT scans can use [[longitudinal multi-task deep learning]] type of setup to compare them
 pre-treatment perfusion scan has contours already
-post-treatment can get contours using [[Deep Lesion Tracker]] 
+post-treatment can get contours using [[deep lesion tracker]] 
 and then use remodeled ConvLSTM for 2x 90 sec perfusion scan and compare their embeddings or something? 
 - can we give convLSTM dose map info??
 - actually i think dose info is better as context in fusion stage (what's a spatial attention mask?)
 and then how in the world to merge all this stuff
 - late fusion
+- fusion with attention module could be more performant but needs individual components validated first / harder to use overall
 
 we are predicting global response assessment category right?
 

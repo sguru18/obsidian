@@ -1,14 +1,6 @@
 ---
 tags:
   - paper
-year:
-authors:
-venue:
-modality:
-task:
-dataset_size:
-relevance:
-open_source:
 ---
 
 ## Problem
@@ -18,11 +10,6 @@ basically adaptions of frameworks for 3D CT
 NOT LONGITUDINAL
 
 Jiang et al. [142] propose a hybrid model to diagnose acute lymphocytic leukemia by using **symmetric cross-entropy loss function.** (good for noisy labels)
-
-## Dataset
-- Size:
-- Modality:
-- Task:
 
 ## My Take
 Is this relevant to your project? What would transfer?

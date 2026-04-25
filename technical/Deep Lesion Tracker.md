@@ -30,9 +30,6 @@ We use both the widely used rigid affine registration method [36] and DEEDS [22]
 lot of results provided with accuracy
 would be curious about precision
 
-## Limitations
-What they acknowledge or what you notice
-
 ## My Take
 could we run some of our lesion pairs on their model??
 **so this is good at finding the centers of lesions at different points in time, which can then be passed into measurement tools** 

@@ -27,13 +27,9 @@ Key numbers, what baseline they beat
 Dice score of 83% +- 5%
 4d segmentation (3 sec ultrasound) Dice score of 86% +- 1%
 
-## Limitations
-What they acknowledge or what you notice
-
 ## My Take
-Is this relevant to your project? What would transfer?
 4d structure should be relevant
 
 ## Links
-- Concept notes: [[]]
+- Concept notes: [[framework modifications]]
 - Related papers: [[]]
