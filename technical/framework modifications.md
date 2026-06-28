@@ -27,6 +27,8 @@ we are predicting global response assessment category right?
 
 one level lower and [[Self-supervised pre-training with contrastive and masked autoencoder methods for dealing with small datasets in deep learning for medical imaging]] seems to have important info for how to actually initialize and train pieces of this
 
+**new / questions**
+- densenet relevant for perfusion analysis??
 
 
 relevant data for overall task

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "multimodal fusion for radiotherapy outcome.md",
+                "file": "vision architectures and loss functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "multimodal fusion for radiotherapy outcome"
+              "title": "vision architectures and loss functions"
             }
           }
         ]
@@ -186,14 +186,16 @@
   },
   "active": "cd0567481d1cd2ce",
   "lastOpenFiles": [
+    "framework modifications.md",
+    "vision architectures and loss functions.md",
+    "multimodal fusion for radiotherapy outcome.md",
+    "Papers/374MT1.pdf",
     "LSTMs for Tumor Growth using 4D longitudinal data.md",
     "longitudinal multi-task deep learning.md",
-    "framework modifications.md",
     "deep lesion tracker.md",
     "correlation filter and Siamese nets.md",
     "CH1.4.3 Transformer for medical image classification.md",
     "Self-supervised pre-training with contrastive and masked autoencoder methods for dealing with small datasets in deep learning for medical imaging.md",
-    "multimodal fusion for radiotherapy outcome.md",
     "Papers/deep-lesion-tracker.pdf",
     "Papers/Unconfirmed 896431.crdownload",
     "Papers/(lstm)-Spatio-Temporal_Convolutional_LSTMs_for_Tumor_Growth_Prediction_by_Learning_4D_Longitudinal_Patient_Data.pdf",
