@@ -1,0 +1,4 @@
+some cool stuff about C
+firstly remembering a lot of stuff from my syseng exercises, it's funny how author says in_place_swap for two pointers is not actually useful but rather for intellectual amusement
+
+printf("x = %" PRId32 ", y = %" PRIu64 "\n", x, y); uses macros to generate the correct format strings for fixed width data types. this tells the compiler to read off the correct number of bytes per machine because the fixed width types are typedefs over actual types like long or int, which are system dependent for number of bytes. so these macros map the typedef types to how many of their underlying base type to read off. i doubt i will ever use this knowledge but it's cool to know
