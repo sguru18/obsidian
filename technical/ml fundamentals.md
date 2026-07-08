@@ -1,5 +1,11 @@
 it's funny that I'm writing this but I'm finding that as I read, I'm having to stop to look up many terms that I should have better understandings of by this point but don't. so i'll write them down here to better remember them and review when needed
 
+**multilabel** (alternatives to BCEloss)
+- bce assumes that the labels in multilabel problems are independent, many solutions if you suspect they are not independent though, such as:
+- GNNs to learn label relations, which lets the model learn abstract vector representations of how the labels relate, this is continuous and fed into an activation layer, not necessarily mathematically optimal joint probability
+- conditional random fields, which also use a graph representation with unweighted edges to learn relations but do so during the final classification step, more reliant on mathematical constraints like maximizing joint probability. graph nodes themselves are predictions, not labels
+- gnns scale better for this, pretty cool stuff
+
 **regularization**
 - strategies used to prevent a model from overfitting to training data by adding a penalty term in the loss 
 - main ones are L1 (lasso) and L2 (ridge)
