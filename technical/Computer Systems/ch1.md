@@ -1,4 +1,6 @@
-text file --> **preprocessor**, which makes modifications according to # directives --> **compiler**, which outputs assembly language --> **assembler**, which translates this into machine code that is gibberish to us in movable executable files --> **linker**, puts executable files together to run 
+amdahl's law - make optimizations that actually make a meaningful effect (proportional to the size of their role in the system)
+
+text file --> **preprocessor**, which makes modifications according to # directives --> **compiler**, which outputs assembly language --> **assembler**, which translates this into object code (machine code type) that is gibberish to us in movable executable files and without global addresses filled in  --> **linker**, puts executable files together to run 
 
 process vs. thread
 - a process is simply an **abstraction** over a program's access to and control over processor cores, virtual memory, and I/O devices. a process does not get scheduled to run, it is a container
