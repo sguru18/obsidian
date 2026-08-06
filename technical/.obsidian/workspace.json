@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/containers.md",
+                "file": "Computer Systems/ch3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "containers"
+              "title": "ch3"
             }
           }
         ],
@@ -285,9 +285,9 @@
   },
   "active": "cbdab9ef3e2b8f84",
   "lastOpenFiles": [
+    "Computer Systems/containers.md",
     "Computer Systems/notes from cpp exercises.md",
     "ML Systems (Chip Huyen)/main ideas.md",
-    "Computer Systems/containers.md",
     "Screenshot 2026-08-05 at 20.41.39.png",
     "LSTMs for Tumor Growth using 4D longitudinal data.md",
     "Computer Systems/ch1.md",

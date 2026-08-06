@@ -1,4 +1,9 @@
-summary of [[containers]]
+overall concepts learned
+- RAII and scopeguard
+- strong types, enums, constexpr
+- summary of [[containers]]
+- 
+
 
 **asm volatile("" : : "r,m"(val) : "memory");**
 asm = inline assembly
@@ -16,11 +21,11 @@ returning const char * is cheaper for small non-changing strings instead of stri
 
 need **noexcept** on move constructors else compiler doesn't trust and just copies. 
 
-&& is pass by **r-value reference**, a reference to a temporary or something passed via std::move(). basically says this object is being moved not copied, you can steal everything from its internals.
+&& is pass by **r-value reference**, a reference to a temporary or something passed via std::move(). basically says this object is being moved not copied, you can steal everything from its internals. used with **std::forward** to make lvalues and rvalues stay as those instead of making parameters into lvalues
 
 **stack unwinding** is when the runtime encounters an exception so it walks back up the call stack to clean up all live objects 
 
-**smart pointers** are nutty and kinda complicated. essence of them is ownership and owner / child lifetime relations. clean relation means unique_ptr is fine. **raw pointers are for borrowing** memory, not owning ie. the borrowed object's lifetime has nothing to do with this object's lifetime
+**smart pointers** are nutty and kinda complicated. essence of them is RAII (ownership and owner / child lifetime relations). clean relation means unique_ptr is fine. **raw pointers are for borrowing** memory, not owning ie. the borrowed object's lifetime has nothing to do with this object's lifetime
 - unique_ptr
 	- single owner, non-copyable but movable. delete called automatically when the object pointed to goes out of scope. highly optimal and clean
 	- generally use make_unique, only use unique_ptr() constructor when not doing a new allocation, ie. making an existing pointer into a smart one. 
