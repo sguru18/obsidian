@@ -11,7 +11,7 @@
 - shift operations 
 didn't like this section very much
 
-3.6 is about control. 
+3.6 is about control. jump instruction alters the execution order of machine code. cpu has a set of single-bit condition registers, changed using the SET class of instructions. 
 
 
 
