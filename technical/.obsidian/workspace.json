@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/notes from cpp exercises.md",
+                "file": "Books/Computer Systems/notes from cpp exercises.md",
                 "mode": "source",
                 "source": false
               },
@@ -111,16 +111,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/ch3.md",
+                "file": "Books/Computer Systems/containers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch3"
+              "title": "containers"
+            }
+          },
+          {
+            "id": "aafd22df7d0910b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Gita/Gita for Children.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gita for Children"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -283,20 +297,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cbdab9ef3e2b8f84",
+  "active": "fc13790d079970d9",
   "lastOpenFiles": [
-    "Computer Systems/containers.md",
-    "Computer Systems/notes from cpp exercises.md",
-    "ML Systems (Chip Huyen)/main ideas.md",
+    "Books/Computer Systems/containers.md",
+    "Books/Gita/Gita for Children.md",
+    "Books/Gita",
+    "Books/Computer Systems/notes from cpp exercises.md",
+    "Books/Computer Systems/ch3.md",
+    "Books",
+    "Books/ML Systems (Chip Huyen)/main ideas.md",
     "Screenshot 2026-08-05 at 20.41.39.png",
     "LSTMs for Tumor Growth using 4D longitudinal data.md",
-    "Computer Systems/ch1.md",
-    "Computer Systems/ch3.md",
-    "Computer Systems/ch2.md",
-    "Untitled",
+    "Books/Computer Systems/ch1.md",
+    "Books/Computer Systems/ch2.md",
     "ml fundamentals.md",
-    "ML Systems (Chip Huyen)",
-    "Computer Systems",
+    "Books/ML Systems (Chip Huyen)",
+    "Books/Computer Systems",
     "vision architectures and loss functions.md",
     "framework modifications.md",
     "multimodal fusion for radiotherapy outcome.md",
@@ -311,7 +327,6 @@
     "Papers/(lstm)-Spatio-Temporal_Convolutional_LSTMs_for_Tumor_Growth_Prediction_by_Learning_4D_Longitudinal_Patient_Data.pdf",
     "Papers/longitudinal-multi-task-dl.pdf",
     "Papers/masked-autoencoder-self-supervised-pretraining.pdf",
-    "Papers",
     "Templates/Paper.md",
     "DL for MI Textbook.md",
     "Templates/Concept.md",
