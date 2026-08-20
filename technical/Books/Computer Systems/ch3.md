@@ -11,7 +11,15 @@
 - shift operations 
 didn't like this section very much
 
-3.6 is about control. jump instruction alters the execution order of machine code. cpu has a set of single-bit condition registers, changed using the SET class of instructions. 
+3.6 is about control. jump instruction alters the execution order of machine code. cpu has a set of single-bit condition registers, changed using the SET class of instructions. goto statement from c++ mirrors how assembly code uses jumps. didn't know about goto, it's considered bad practice though. 
+
+implementing control using **conditional moves** is also very cool because it affects processor pipelining and avoids refilling the pipeline from a missed prediction. comparative move is only one instruction. good when computing both results is cheap i guess. and both have to be possible as well. expected cost of branching = misprediction_probability × misprediction_penalty, compare this with cost of computing both results. **learning to profile must be important to know when one or the other is better**
+
+guarded-do implementation of loops is a little weird and counter intuitive but allows optimization of the loop condition
+
+
+
+
 
 
 

@@ -1,0 +1,1 @@
+Benn Jordan's highly performant alg for detecting ai generated music is not really about detecting ai itself, it detects fragments of products from the compression algorithm that are used by streaming platforms. model trainers use audio files from here as opposed to lossless files so it's kinda good obviously has issues but still cool example of subject matter knowledge
