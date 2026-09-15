@@ -15,13 +15,13 @@ didn't like this section very much
 
 implementing control using **conditional moves** is also very cool because it affects processor pipelining and avoids refilling the pipeline from a missed prediction. comparative move is only one instruction (if x then y = z), so you can transfer data instead of control. good when computing both results is cheap i guess. and both have to be possible as well. expected cost of branching = misprediction_probability × misprediction_penalty, compare this with cost of computing both results. **learning to profile must be important to know when one or the other is better**
 
-**guarded-do** implementation of loops as opposed to jump to middle is a little weird but allows optimization of the loop condition because there is only one path to the test expression, which is through the body. so if body established something that makes the condition never true, compiler can delete the loop.
+**guarded-do** implementation of loops as opposed to jump to middle is a little weird but allows optimization of the loop condition because there is only one path to the test expression, which is through the body. so if body established something that makes the condition never true, compiler can delete the loop, or skip the condition if it will always be true. optimizer decides when to use this
 
 switch statements are good because they use a **jump table**, which is efficient and used with **indirect jump instruction** when there are dense set of possibilities in a small range
 
-3.7 is procedures. procedures need control passing, data passing, and memory management. there 6 registers for passing integer/ptr arguments, and 8 for floating point (on linux and mac).
+3.7 is procedures. procedures need control passing, data passing, and memory management. there 6 registers for passing integer/ptr arguments, and 8 for floating point (on linux and mac). **call** instruction passes control, registers and then stack frame used to pass data following certain conventions. mutual recursion sounds freaky
 
-stopped at 3.7.3 data transfer
+3.8 is array allocation and access
 
 
 
