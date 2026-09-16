@@ -1,5 +1,10 @@
 it's funny that I'm writing this but I'm finding that as I read, I'm having to stop to look up many terms that I should have better understandings of by this point but don't. so i'll write them down here to better remember them and review when needed
 
+**GATs**
+- burned so much time today reading through stuff for 498 project idea but has given me a much better understanding of these things
+- far too expensive computationally on dense graphs bc attention scales with number of edges, and is redone on every pass (n-hop)
+- this is why they are barely used in industry except specific cases like small and sparse graphs
+
 **multilabel** (alternatives to BCEloss)
 - bce assumes that the labels in multilabel problems are independent, many solutions if you suspect they are not independent though, such as:
 - GNNs to learn label relations, which lets the model learn abstract vector representations of how the labels relate, this is continuous and fed into an activation layer, not necessarily mathematically optimal joint probability

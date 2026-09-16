@@ -19,9 +19,11 @@ implementing control using **conditional moves** is also very cool because it af
 
 switch statements are good because they use a **jump table**, which is efficient and used with **indirect jump instruction** when there are dense set of possibilities in a small range
 
-3.7 is procedures. procedures need control passing, data passing, and memory management. there 6 registers for passing integer/ptr arguments, and 8 for floating point (on linux and mac). **call** instruction passes control, registers and then stack frame used to pass data following certain conventions. mutual recursion sounds freaky
+3.7 is procedures. procedures need control passing, data passing, and memory management. there 6 registers for passing integer/ptr arguments, and 8 for floating point (on linux and mac). **call** instruction passes control, registers and then stack frame are used to pass data following certain conventions. mutual recursion sounds freaky but just follows the same stack patterns
 
-3.8 is array allocation and access
+3.8 is array allocation and access. cool that ptr subtraction returns number of elements ie. difference in bytes / sizeof(type), just like addition automatically uses sizeof(type).
+
+stopped at 3.8.3
 
 
 

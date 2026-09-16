@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Computer Systems/ch3.md",
+                "file": "ml fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch3"
+              "title": "ml fundamentals"
             }
           }
         ],
@@ -207,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e3677f99c3f9cf6a",
@@ -316,17 +315,17 @@
   },
   "active": "2e17d310716ce974",
   "lastOpenFiles": [
+    "LSTMs for Tumor Growth using 4D longitudinal data.md",
+    "Books/Computer Systems/ch3.md",
     "just cool stuff.md",
     "Books/Gita/Gita for Children.md",
     "Untitled",
     "Books/Computer Systems/containers.md",
     "Books/Gita",
     "Books/Computer Systems/notes from cpp exercises.md",
-    "Books/Computer Systems/ch3.md",
     "Books",
     "Books/ML Systems (Chip Huyen)/main ideas.md",
     "Screenshot 2026-08-05 at 20.41.39.png",
-    "LSTMs for Tumor Growth using 4D longitudinal data.md",
     "Books/Computer Systems/ch1.md",
     "Books/Computer Systems/ch2.md",
     "ml fundamentals.md",
